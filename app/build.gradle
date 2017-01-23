@@ -52,6 +52,12 @@ android {
     }
 }
 
+android {
+    lintOptions {
+        abortOnError false
+    }
+}
+
 //라이브러리
 dependencies {
     compile fileTree(dir: 'libs', include: ['*.jar'])
